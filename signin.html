@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+      <hr>
+        <h2>CREATE YOUR ACCOUNT</h2>
+        </hr>
+           <hr>
+        <form onsubmit="uptime_checker(event)">
+          </hr>
+            <label for="user name">Email adress :</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">CONTINUE </button>
+
+            <h3>Already have an acount?</h3>
+
+            <h3 ALIGN="center">OR</h3>
+            <h4 align="center">Continue with Google </h4>
+
+
+
+
+        </form>
+        <p id="result"></p>
+
+
+    </div>
+</body>
+</html>
